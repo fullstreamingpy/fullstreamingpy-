@@ -61,3 +61,60 @@ footer {
     font-size: 14px;
     color: #666;
 }
+.planes {
+  padding: 20px;
+  text-align: center;
+}
+
+.planes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-card img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.plan-card p {
+  margin: 10px 0;
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+.plan-card .btn {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .planes-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
