@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FullStreamingPY</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #e50914;
+    }
+    .section {
+      margin: 30px 0;
+    }
+    .button {
+      display: inline-block;
+      background-color: #e50914;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Streaming Premium por Menos</h1>
+  <p>Accedé a tus plataformas favoritas con el mejor precio del país.</p>
+
+  <div class="section">
+    <h2>💳 Planes</h2>
+    <p>Netflix: desde Gs. 20.000/mes</p>
+    <p>Disney+: desde Gs. 15.000/mes</p>
+    <p>Combo 3 plataformas: Gs. 40.000/mes</p>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ ¿Cómo funciona?</h2>
+    <ol style="text-align: left; max-width: 400px; margin: auto;">
+      <li>Elegís tu plan</li>
+      <li>Hacés el pago por giro o transferencia</li>
+      <li>Recibís el acceso directo por WhatsApp</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <a class="button" href="https://wa.me/595XXXXXXXXX?text=Hola%2C%20quiero%20info%20sobre%20cuentas%20de%20Netflix%20y%20otras%20plataformas" target="_blank">
+      📲 Solicitar ahora por WhatsApp
+    </a>
+  </div>
+</body>
+</html>
