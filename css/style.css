@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    margin: 0;
+    color: #0d47a1;
+    text-align: center;
+}
+header {
+    padding: 30px 15px;
+}
+.logo {
+    width: 100px;
+}
+h1 {
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+.planes, .funciona, .opiniones, .contacto {
+    padding: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ol {
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+}
+blockquote {
+    font-style: italic;
+    color: #444;
+    background: #f3f3f3;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    border-left: 5px solid #1976d2;
+}
+.btn {
+    display: inline-block;
+    background-color: #1976d2;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer {
+    background: #f1f1f1;
+    padding: 20px;
+    margin-top: 40px;
+}
+.redes a {
+    margin: 0 10px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+.copy {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
